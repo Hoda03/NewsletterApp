@@ -96,5 +96,4 @@ class FavoritesArticlesFragment : Fragment() {
 
         }
     }
-
 }
