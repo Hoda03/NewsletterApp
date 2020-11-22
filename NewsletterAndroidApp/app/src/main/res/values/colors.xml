@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+
+    <color name="app_text_ui_color_blue">#008FCE</color>
+    <color name="app_text_ui_color_grey">#505050</color>
+    <color name="app_text_ui_color_light_grey">#CD505050</color>
+    <color name="app_layout_divider_color">#46B4B4B4</color>
+
+    <color name="app_background">#A6F3F3F3</color>
+    <color name="light_grey">#A6F3F3F3</color>
+    <color name="grey">#8BBFBFBF</color>
+
+    <color name="red_color">#FA2520</color>
+
+    <color name="purple_color">#8D24A9</color>
+    <color name="purple_light_color">#4B8D24A9</color>
+
+    <color name="blue_color">#1F66CC</color>
+    <color name="medium_blue_color">#CD3186FF</color>
+    <color name="blue_light_color">#4A1F66CC</color>
+
+    <color name="green_color">#03CC78</color>
+    <color name="green_light_color">#6600DC80</color>
+
+</resources>

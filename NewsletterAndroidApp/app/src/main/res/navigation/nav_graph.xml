@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/HomeFragment">
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.newsletter.app.ui.fragments.HomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_forward_HomeFragment_to_ArticlesFragment"
+            app:destination="@id/ArticlesFragment" />
+
+        <action
+            android:id="@+id/action_forward_HomeFragment_to_FavoritesArticlesFragment"
+            app:destination="@id/FavoritesArticlesFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/FavoritesArticlesFragment"
+        android:name="com.newsletter.app.ui.fragments.FavoritesArticlesFragment"
+        android:label="@string/fav"
+        tools:layout="@layout/fragment_favorites_articles">
+
+        <action
+            android:id="@+id/action_forward_ArticlesFragment_to_ArticleDetailsFragment"
+            app:destination="@id/ArticleDetailsFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/ArticlesFragment"
+        android:name="com.newsletter.app.ui.fragments.ArticlesFragment"
+        android:label="@string/fragment_articles"
+        tools:layout="@layout/fragment_articles">
+
+        <action
+            android:id="@+id/action_forward_ArticlesFragment_to_ArticleDetailsFragment"
+            app:destination="@id/ArticleDetailsFragment" />
+
+        <argument
+            android:name="id"
+            app:argType="string" />
+
+        <argument
+            android:name="source"
+            app:argType="string" />
+
+        <argument
+            android:name="newsType"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/ArticleDetailsFragment"
+        android:name="com.newsletter.app.ui.fragments.ArticleDetailsFragment"
+        android:label="@string/details"
+        tools:layout="@layout/fragment_article_details">
+
+        <argument
+            android:name="url"
+            app:argType="string" />
+
+        <argument
+            android:name="publishedAt"
+            app:argType="string" />
+
+        <argument
+            android:name="sourceId"
+            app:argType="string" />
+
+    </fragment>
+
+</navigation>

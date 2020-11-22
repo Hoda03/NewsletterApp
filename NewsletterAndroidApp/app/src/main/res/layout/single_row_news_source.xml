@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data class="SingleRowNewsSourceBinding">
+
+        <variable
+            name="model"
+            type="com.newsletter.app.dataModels.SourcesModel" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/parentView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/filled_light_grey"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{model.name}"
+            android:textSize="17sp"
+            android:textColor="@color/app_text_ui_color_grey"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@{model.description}"
+            android:textColor="@color/app_text_ui_color_light_grey" />
+
+    </LinearLayout>
+
+</layout>

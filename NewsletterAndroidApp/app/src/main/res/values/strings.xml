@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Newsletter</string>
+
+    <string name="fragment_articles">Articles</string>
+    <string name="details">Details</string>
+    <string name="image_place_holder_text">Image Here</string>
+    <string name="added_to_fav">Added to favorites</string>
+    <string name="removed_from_fav">Removed from favorites</string>
+    <string name="fav">Favorites</string>
+    <string name="read_full_article">Read Full Article</string>
+    <string name="open_using">Open Using</string>
+
+    <string name="search_by_country">Search News By Country</string>
+    <string name="it">Italy</string>
+    <string name="gb">England</string>
+    <string name="de">Germany</string>
+    <string name="fr">France</string>
+    <string name="cn">China</string>
+    <string name="us">United States</string>
+
+    <string name="search_by_categories">Search News By Categories</string>
+    <string name="business">Business</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="general">General</string>
+    <string name="health">Health</string>
+    <string name="science">Science</string>
+    <string name="sports">Sports</string>
+
+    <string name="search_by_publishers">Search News By Publishers </string>
+
+    <string name="unknown_host_error">Can\'t connect to server.\nPlease check your internet connection.</string>
+    <string name="connection_time_out">Connection TimeOut.\nPlease check your internet connection.</string>
+    <string name="api_error_message">Ooops\nSomething went wrong while calling API.\nPlease try again later.</string>
+
+    <string name="favorites">Favorites</string>
+    <string name="source_name">News By %1$s</string>
+    <string name="author_name">Author :</string>
+
+</resources>
