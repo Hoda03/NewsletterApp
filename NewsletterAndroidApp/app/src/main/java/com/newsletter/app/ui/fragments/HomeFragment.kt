@@ -246,7 +246,9 @@ class HomeFragment : Fragment() {
                 navController?.navigate(action)
             }
         }
+        
         return super.onOptionsItemSelected(item)
     }
+    
 
 }
