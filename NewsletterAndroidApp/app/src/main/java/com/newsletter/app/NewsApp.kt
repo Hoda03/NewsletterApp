@@ -13,7 +13,6 @@ class NewsApp : Application() {
         ServiceBuilder.initialize(this)
         LocalRepositoryImpl.initialize(this)
         NewsApiRepositoryImpl.initialize()
-
     }
 
 }
