@@ -64,13 +64,12 @@ dependencies {
 
     implementation 'com.google.android.material:material:1.2.1'
 
-    //noinspection GradleDependency
+    //Retrofit : Pour consommer les web services RestFul
     implementation 'com.squareup.retrofit2:retrofit:2.6.0'
-    //noinspection GradleDependency
+    //Gson Converter : Utilisé par Retrofit pour convertir les objets JSON en POJO
     implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
-    //noinspection GradleDependency
     implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
-    //noinspection GradleDependency
+    //Retrofit Logger: Permet d'arricher les logs des requêtes
     implementation 'com.squareup.okhttp3:logging-interceptor:3.9.1'
 
     implementation 'io.reactivex.rxjava2:rxjava:2.2.15'
