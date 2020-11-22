@@ -37,5 +37,4 @@ class NewsApiRepositoryImpl private constructor() : NewsApiRepository {
     override fun callGetArticlesApiByCategory(category: String): Single<ArticlesApiResponse> {
         return ServiceBuilder.get().callGetArticlesApiByCategory(category)
     }
-
 }
