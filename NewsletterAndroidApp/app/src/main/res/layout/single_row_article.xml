@@ -10,6 +10,7 @@
             type="com.newsletter.app.dataModels.ArticleModel" />
     </data>
 
+    
     <LinearLayout
         android:id="@+id/parentView"
         android:layout_width="match_parent"
