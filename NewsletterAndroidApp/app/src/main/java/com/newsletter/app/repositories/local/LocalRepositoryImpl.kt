@@ -99,5 +99,4 @@ class LocalRepositoryImpl private constructor() : LocalRepositoryDao {
             localRepositoryDao.updateArticleFavoriteStatus(isFavorite, url, publishedAt, sourceId)
         }
     }
-
 }
