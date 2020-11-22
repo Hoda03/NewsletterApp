@@ -95,7 +95,6 @@ class ArticleDetailsFragment : Fragment() {
 
                     }
                 })
-
         }
     }
 
