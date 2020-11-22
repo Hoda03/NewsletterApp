@@ -4,4 +4,5 @@ enum class Endpoint {
     EVERYTHING,
     TOP_HEADLINES,
     SOURCES
+    
 }
