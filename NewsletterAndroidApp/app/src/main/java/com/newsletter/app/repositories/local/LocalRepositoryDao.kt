@@ -51,5 +51,4 @@ interface LocalRepositoryDao {
         publishedAt: String,
         sourceId: String
     )
-
 }
