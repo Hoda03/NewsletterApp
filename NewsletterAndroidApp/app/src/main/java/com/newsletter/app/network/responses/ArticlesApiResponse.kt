@@ -6,4 +6,5 @@ data class ArticlesApiResponse(
     val status: String,
     val message: String?,
     val articles: List<ArticleModel>?
+    
 )
