@@ -17,4 +17,5 @@ data class ArticleModel(
     val content: String? = "",
     val isFavorite: Boolean = false,
     var sourceId: String = ""
+    
 )
