@@ -193,6 +193,7 @@ class NewsApiViewModel : ViewModel() {
 
     override fun onCleared() {
         disposable.clear()
+        
     }
 
 }
