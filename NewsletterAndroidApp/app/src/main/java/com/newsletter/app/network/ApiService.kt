@@ -19,4 +19,5 @@ interface ApiService {
 
     @GET("/v2/top-headlines")
     fun callGetArticlesApiByCategory(@Query("category") category: String): Single<ArticlesApiResponse>
+    
 }
